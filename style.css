@@ -1,0 +1,57 @@
+/* Terminal Portfolio Theme */
+body {
+  background-color: #0d0d0d;
+  color: #39ff14;
+  font-family: 'Fira Code', monospace;
+  margin: 0;
+  padding: 2rem;
+}
+
+main.terminal {
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.prompt {
+  color: #ffffff;
+  margin-top: 2rem;
+}
+
+.cmd {
+  color: #00ffff;
+}
+
+.output {
+  color: #d6e0f0;
+  margin-left: 2rem;
+}
+
+.output a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.output a:hover {
+  text-decoration: underline;
+}
+
+ul.output {
+  list-style-type: "➜ ";
+  padding-left: 2rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .output {
+    margin-left: 1rem;
+  }
+
+  ul.output {
+    padding-left: 1.2rem;
+  }
+}
