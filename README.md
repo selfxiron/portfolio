@@ -3,8 +3,6 @@
 A minimal, terminal-inspired personal portfolio website built using **HTML** and **CSS**.  
 This project reflects my developer identity and showcases my skills, projects, and contact information in a clean, command-line style layout.
 
-![screenshot](./screenshot.png) <!-- Optional: Add a screenshot image in your repo -->
-
 ---
 
 ## 📂 Live Demo
