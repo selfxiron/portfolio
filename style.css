@@ -20,6 +20,23 @@ main.terminal {
 
 .cmd {
   color: #00ffff;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.cmd::after {
+  content:"";
+  width: 0px;
+  height: 2px;
+  background-color: #00ffff;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.25s ease;
+}
+.cmd:hover::after {
+  width: 100%;
 }
 
 .output {
