@@ -3,15 +3,11 @@
 A minimal, terminal-inspired personal portfolio website built using **HTML** and **CSS**.  
 This project reflects my developer identity and showcases my skills, projects, and contact information in a clean, command-line style layout.
 
----
-
-## 📂 Live Demo
+## 🚀 Live Demo
 
 🌐 **[View Live Website](https://selfxiron.github.io/portfolio/)**
 
----
-
-## 📁 Features
+## ✨ Features
 
 - 🧑‍💻 Terminal-style layout with CLI-like prompts  
 - 💡 Fully responsive across devices  
