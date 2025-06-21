@@ -93,14 +93,15 @@ ul.output {
   }
 
   main.terminal {
-    max-width: 100vw;
+    max-width: 85vw;
     padding: 0 0.2rem;
+
   }
 
   .ascii-art {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     padding: 0.5rem 0 0.3rem 0;
-    max-width: 99vw;
+    max-width: 80;
     margin-bottom: 1.2rem;
     border-radius: 7px;
   }
