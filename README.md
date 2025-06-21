@@ -11,7 +11,7 @@ This project reflects my developer identity and showcases my skills, projects, a
 
 - 🧑‍💻 Terminal-style layout with CLI-like prompts  
 - 💡 Fully responsive across devices  
-- 🎨 Pure HTML & CSS  
+- 🎨 HTML, CSS and JavaScript 
 - ⚡ Fast, lightweight, and accessible  
 - 📄 Easy to customize and extend
 
