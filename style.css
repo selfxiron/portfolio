@@ -19,18 +19,14 @@ main.terminal {
   font-family: 'Fira Code', monospace;
   font-size: 1.15rem;
   margin: 0 auto 2.5rem auto;
-  padding: 1.5rem 1.6rem 1rem 1.1rem;
+  padding: 1.5rem 1rem 1rem 1rem;
   width: 100%;
   max-width: 700px;
-  min-height: 170px;
   background: rgba(13, 13, 13, 0.98);
   border-radius: 10px;
   box-shadow: 0 2px 24px rgba(0, 224, 255, 0.12);
   text-align: center;
-  white-space: pre;
-  letter-spacing: 1.5px;
   border: 1px solid #1a1a1a;
-  display: block;
 }
 
 /* Terminal Prompt */
@@ -96,7 +92,6 @@ ul.output {
   .ascii-art {
     font-size: 0.7rem;
     padding: 0.5rem 0 0.3rem 0;
-    min-height: 60px;
     max-width: 99vw;
     margin-bottom: 1.2rem;
     border-radius: 7px;
@@ -133,9 +128,8 @@ ul.output {
 
   .ascii-art {
     font-size: 0.9rem;
-    padding: 1rem 0 0.5rem 0;
-    min-height: 90px;
-    max-width: 98vw;
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    max-width: 90vw;
     margin-bottom: 1.5rem;
     border-radius: 8px;
   }
