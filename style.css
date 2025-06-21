@@ -13,11 +13,33 @@ main.terminal {
   line-height: 1.6;
 }
 
+/* ASCII Art Banner */
+.ascii-art {
+  color: #00e0ff;
+  font-family: 'Fira Code', monospace;
+  font-size: 1.15rem;
+  margin: 0 auto 2.5rem auto;
+  padding: 1.5rem 1.6rem 1rem 1.1rem;
+  width: 100%;
+  max-width: 700px;
+  min-height: 170px;
+  background: rgba(13, 13, 13, 0.98);
+  border-radius: 10px;
+  box-shadow: 0 2px 24px rgba(0, 224, 255, 0.12);
+  text-align: center;
+  white-space: pre;
+  letter-spacing: 1.5px;
+  border: 1px solid #1a1a1a;
+  display: block;
+}
+
+/* Terminal Prompt */
 .prompt {
-  color: #ffffff;
+  color: #fff;
   margin-top: 2rem;
 }
 
+/* Command Style */
 .cmd {
   color: #00ffff;
   position: relative;
@@ -25,8 +47,8 @@ main.terminal {
   cursor: pointer;
 }
 .cmd::after {
-  content:"";
-  width: 0px;
+  content: "";
+  width: 0;
   height: 2px;
   background-color: #00ffff;
   position: absolute;
@@ -39,6 +61,7 @@ main.terminal {
   width: 100%;
 }
 
+/* Output Text */
 .output {
   color: #d6e0f0;
   margin-left: 2rem;
@@ -48,27 +71,88 @@ main.terminal {
   color: #00ffff;
   text-decoration: none;
 }
-
 .output a:hover {
   text-decoration: underline;
 }
 
+/* Output List */
 ul.output {
   list-style-type: "➜ ";
   padding-left: 2rem;
 }
 
+/* Responsive: Mobile */
 @media (max-width: 600px) {
   body {
-    padding: 1rem;
+    padding: 0.5rem;
+    font-size: 0.92rem;
+  }
+
+  main.terminal {
+    max-width: 100vw;
+    padding: 0 0.2rem;
+  }
+
+  .ascii-art {
+    font-size: 0.7rem;
+    padding: 0.5rem 0 0.3rem 0;
+    min-height: 60px;
+    max-width: 99vw;
+    margin-bottom: 1.2rem;
+    border-radius: 7px;
+  }
+
+  .output {
+    margin-left: 0.5rem;
     font-size: 0.95rem;
+    word-break: break-word;
+  }
+
+  ul.output {
+    padding-left: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  .prompt {
+    margin-top: 1rem;
+    font-size: 0.98rem;
+  }
+}
+
+/* Responsive: Tablet */
+@media (max-width: 700px) and (min-width: 601px) {
+  body {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  main.terminal {
+    max-width: 98vw;
+    padding: 0 0.5rem;
+  }
+
+  .ascii-art {
+    font-size: 0.9rem;
+    padding: 1rem 0 0.5rem 0;
+    min-height: 90px;
+    max-width: 98vw;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
   }
 
   .output {
     margin-left: 1rem;
+    font-size: 1rem;
+    word-break: break-word;
   }
 
   ul.output {
-    padding-left: 1.2rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+
+  .prompt {
+    margin-top: 1.2rem;
+    font-size: 1rem;
   }
 }
