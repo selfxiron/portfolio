@@ -30,6 +30,7 @@ This project reflects my developer identity and showcases my skills, projects, a
 ## 📌 Commands Structure
 
 ```bash
+    ASCII Banner
 jeet@portfolio:~$ whoami
 jeet@portfolio:~$ skills
 jeet@portfolio:~$ ls projects/
