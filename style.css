@@ -14,12 +14,17 @@ main.terminal {
 }
 
 /* ASCII Art Banner */
+
+  .terminal pre {
+    width: 85%;
+  }
+
 .ascii-art {
   color: #00e0ff;
   font-family: 'Fira Code', monospace;
-  font-size: 1.15rem;
+  font-size: 1rem;
   margin: 0 auto 2.5rem auto;
-  padding: 1.5rem 1rem 1rem 1rem;
+  padding: 1.5rem 1.3rem 1rem 1rem;
   width: 100%;
   max-width: 700px;
   background: rgba(13, 13, 13, 0.98);
@@ -134,10 +139,12 @@ ul.output {
     max-width: 98vw;
     padding: 0 0.5rem;
   }
-
+  .terminal pre {
+    width: 85%;
+  }
   .ascii-art {
     font-size: 0.9rem;
-    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    padding: 1rem 1.7rem 0.5rem 1.5rem;
     max-width: 90vw;
     margin-bottom: 1.5rem;
     border-radius: 8px;
