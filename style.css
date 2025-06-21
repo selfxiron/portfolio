@@ -29,6 +29,8 @@ main.terminal {
   border: 1px solid #1a1a1a;
 }
 
+
+
 /* Terminal Prompt */
 .prompt {
   color: #fff;
@@ -69,6 +71,12 @@ main.terminal {
 }
 .output a:hover {
   text-decoration: underline;
+}
+
+/* Typewriter Effect */
+.output #typeit_name {
+  color: #00ffff;
+  font-weight: bold;
 }
 
 /* Output List */
