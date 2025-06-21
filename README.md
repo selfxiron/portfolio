@@ -11,7 +11,7 @@ This project reflects my developer identity and showcases my skills, projects, a
 
 - 🧑‍💻 Terminal-style layout with CLI-like prompts  
 - 💡 Fully responsive across devices  
-- 🎨 Pure HTML & CSS (no JavaScript)  
+- 🎨 Pure HTML & CSS  
 - ⚡ Fast, lightweight, and accessible  
 - 📄 Easy to customize and extend
 
@@ -21,6 +21,8 @@ This project reflects my developer identity and showcases my skills, projects, a
 
 - HTML5
 - CSS3
+- JavaScript
+- TypeIt.js for smooth, customizable typewriter text animation
 - Fira Code (Monospace font)
 - Git & GitHub for version control
 - GitHub Pages for deployment
@@ -30,7 +32,7 @@ This project reflects my developer identity and showcases my skills, projects, a
 ## 📌 Commands Structure
 
 ```bash
-    ASCII Banner
+ASCII Banner
 jeet@portfolio:~$ whoami
 jeet@portfolio:~$ skills
 jeet@portfolio:~$ ls projects/
