@@ -15,9 +15,9 @@ main.terminal {
 
 /* ASCII Art Banner */
 
-  .terminal pre {
-    width: 85%;
-  }
+.terminal pre {
+  width: 85%;
+}
 
 .ascii-art {
   color: #00e0ff;
@@ -25,8 +25,7 @@ main.terminal {
   font-size: 1rem;
   margin: 0 auto 2.5rem auto;
   padding: 1.5rem 1.3rem 1rem 1rem;
-  width: 100%;
-  max-width: 700px;
+  width: min(100%, 700px);
   background: rgba(13, 13, 13, 0.98);
   border-radius: 10px;
   box-shadow: 0 2px 24px rgba(0, 224, 255, 0.12);
@@ -90,10 +89,53 @@ ul.output {
   padding-left: 2rem;
 }
 
-/* Responsive: Mobile */
-@media (max-width: 600px) {
+/* Responsive: Small-Mobile to Medium-Mobile */
+@media (max-width: 450px) and (min-width: 300px) {
   body {
-    padding: 0.5rem;
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  main.terminal {
+    max-width: 90vw;
+    padding: 0 0.5rem;
+  }
+
+  .terminal pre {
+    width: 80%;
+  }
+
+  .ascii-art {
+    font-size: 0.45rem;
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    max-width: 80vw;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+  }
+
+  .output {
+    margin-left: 1rem;
+    font-size: 0.95rem;
+    word-break: break-word;
+  }
+
+  ul.output {
+    padding-left: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .prompt {
+    margin-top: 1.2rem;
+    font-size: 0.95rem;
+  }
+  
+}
+
+
+/* Responsive: Big-Mobile */
+@media (max-width: 600px) and (min-width: 451px) {
+  body {
+    padding: 1rem;
     font-size: 0.92rem;
   }
 
@@ -103,10 +145,14 @@ ul.output {
 
   }
 
+  .terminal pre {
+    width: 90%;
+  }
+
   .ascii-art {
     font-size: 0.5rem;
     padding: 0.5rem 0 0.3rem 0;
-    max-width: 80;
+    max-width: 80vw;
     margin-bottom: 1.2rem;
     border-radius: 7px;
   }
